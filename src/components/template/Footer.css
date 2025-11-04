@@ -1,0 +1,11 @@
+@import "../../styles/common.css";
+.box{
+    background-color: var(--secondocolore);
+    padding-bottom: 40px;
+    color: var(--quintocolore);
+}
+
+a.css-1bhi0za-MuiTypography-root-MuiLink-root, a.css-1gxsln7-MuiTypography-root-MuiLink-root{
+    text-decoration-color: var(--quintocolore);
+    color: var(--quintocolore);
+}

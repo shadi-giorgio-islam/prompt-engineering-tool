@@ -1,0 +1,9 @@
+.articoli-home{
+    width: 70%;
+    margin: auto;
+}
+
+.article-home-text{
+    color: var(--quintocolore);
+    padding: 20px 0;
+}

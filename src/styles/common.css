@@ -1,0 +1,13 @@
+:root {
+  --primocolore: #EEE2DC;
+  --secondocolore: #EDC7B7;
+  --terzocolore: #BAB2B5;
+  --quartocolore: #123C69;
+  --quintocolore: #AC3B61;
+  /*spessore font*/
+  --spessorefont-light: 300;
+  --spessorefont-normal: 400;
+  --spessorefont-semibold: 500;
+  --spessorefont-bold: 700;
+}
+
