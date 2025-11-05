@@ -1,0 +1,63 @@
+.promptBuilderContainer {
+    padding: 4rem 0;
+    background-color: var(--quintocolore);
+}
+
+.sectionTitle {
+    text-align: center;
+    color: var(--secondocolore);
+    margin-bottom: 3rem !important;
+    font-weight: 600 !important;
+}
+
+.parametersGrid {
+    display: grid;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.parameterField {
+    background-color: var(--terzocolore);
+    border-radius: 8px;
+}
+
+.roleSelectors, .languageStyleSelectors {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.detailLevelContainer {
+    padding: 1rem;
+    background-color: var(--terzocolore);
+    border-radius: 8px;
+}
+
+/* Stili per i componenti Material-UI */
+.MuiFormControl-root {
+    background-color: var(--terzocolore);
+    border-radius: 8px;
+}
+
+.MuiSlider-root {
+    color: var(--primocolore) !important;
+}
+
+.MuiSlider-markLabel {
+    color: var(--quartocolore) !important;
+}
+
+.MuiInputLabel-root {
+    color: var(--quartocolore) !important;
+}
+
+.MuiOutlinedInput-root {
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .roleSelectors, .languageStyleSelectors {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,54 @@
+.selectorContainer {
+    padding: 4rem 0;
+    background-color: var(--terzocolore);
+}
+
+.selectorTitle {
+    text-align: center;
+    color: var(--secondocolore);
+    margin-bottom: 1rem !important;
+    font-weight: 700 !important;
+}
+
+.selectorSubtitle {
+    text-align: center;
+    color: var(--quartocolore);
+    margin-bottom: 3rem !important;
+    font-weight: 400 !important;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.communicationCard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.communicationCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.cardIcon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: var(--primocolore);
+}
+
+.cardTitle {
+    text-align: center;
+    margin-bottom: 1rem !important;
+    color: var(--secondocolore);
+    font-weight: 600 !important;
+}
+
+.cardDescription {
+    text-align: center;
+    color: var(--quartocolore);
+}

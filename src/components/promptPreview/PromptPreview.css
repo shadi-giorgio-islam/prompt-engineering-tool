@@ -1,0 +1,65 @@
+.previewContainer {
+    padding: 4rem 0;
+    background-color: var(--terzocolore);
+}
+
+.previewTitle {
+    text-align: center;
+    color: var(--secondocolore);
+    margin-bottom: 2rem !important;
+    font-weight: 600 !important;
+}
+
+.promptDisplay {
+    background-color: var(--quintocolore) !important;
+    padding: 2rem !important;
+    margin-bottom: 2rem !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.promptText {
+    white-space: pre-wrap;
+    font-family: 'Roboto Mono', monospace !important;
+    line-height: 1.6 !important;
+    color: var(--quartocolore);
+}
+
+.actionButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.actionButton {
+    padding: 10px 24px !important;
+    border-radius: 30px !important;
+    text-transform: none !important;
+    font-weight: 500 !important;
+}
+
+.regenerate {
+    background-color: var(--primocolore) !important;
+    color: var(--quintocolore) !important;
+}
+
+.copy {
+    background-color: var(--secondocolore) !important;
+    color: var(--quintocolore) !important;
+}
+
+.save {
+    background-color: var(--quartocolore) !important;
+    color: var(--quintocolore) !important;
+}
+
+@media (max-width: 600px) {
+    .actionButtons {
+        flex-direction: column;
+    }
+
+    .actionButton {
+        width: 100%;
+    }
+}
